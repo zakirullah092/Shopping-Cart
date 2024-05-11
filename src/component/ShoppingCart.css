@@ -1,0 +1,59 @@
+.main{
+    width: 100vw;
+}
+.main h2 {
+    background-color: lightblue;
+    margin: 0;
+    padding: 14px;
+    text-align: center;
+}
+.products first-child:h3 {
+    text-align: center;
+    width: 100vw;
+    background-color: lightgoldenrodyellow;
+}
+
+.design{
+
+    display: flex;
+}
+.prodcutsUl{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 70vw;
+}
+.prodcutsUl li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    background-color: rgb(20, 22, 23);
+    margin: 14px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.category {
+    background-color: gold;
+    color: black;
+    padding: 4px;
+    width: 50%;
+    border-radius: 4px;
+
+}
+.prodcutsUl li img {
+    margin: 10px auto;
+    display: block;
+}
+.prodcutsUl li button{
+    padding: 8px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
